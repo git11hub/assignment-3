@@ -23,10 +23,17 @@ function budgetCalculator(amountOfWatch, amountOfPhone, amountOfLaptop){
     var laptop = amountOfLaptop * 500;
     var totalPrice = watch + phone + laptop;
 
-    return totalPrice;
+    if(totalPrice >= 0){
+        return totalPrice;
+    }
+    else{
+        return "Invalid number";
+    }
+
+    
 }
 
-var totalPrice = budgetCalculator(0, -3, 0);
+var totalPrice = budgetCalculator(0, 0, -5);
 console.log(totalPrice);
 
 //   Hotel Cost

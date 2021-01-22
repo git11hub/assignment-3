@@ -1,8 +1,9 @@
+// https://github.com/git11hub/assignment-3
 
 // kilometer to meter function 
 
 function kilometerToMeter(n){
-    var meter = n*1000;
+    var meter = n * 1000;
     return meter;
 }
 var meter = kilometerToMeter(5);
@@ -15,17 +16,17 @@ console.log(meter)
 // phonePrice = $100
 // laptopPrice = $500
 
-function budgetCalculator(amountOfWatch,amountOfPhone,amountOfLaptop){
+function budgetCalculator(amountOfWatch, amountOfPhone, amountOfLaptop){
 
-    var watch = amountOfWatch*50;
-    var phone = amountOfPhone*100;
-    var laptop = amountOfLaptop*500;
-    var totalPrice = watch+phone+laptop;
+    var watch = amountOfWatch * 50;
+    var phone = amountOfPhone * 100;
+    var laptop = amountOfLaptop * 500;
+    var totalPrice = watch + phone + laptop;
 
     return totalPrice;
 }
 
-var totalPrice = budgetCalculator(0,3,0);
+var totalPrice = budgetCalculator(0, 3, 0);
 console.log(totalPrice);
 
 //   Hotel Cost
@@ -33,10 +34,10 @@ console.log(totalPrice);
 function hotelCost(day){
 
     var tenDaysCost = 10 * 100;
-    var twentyDaysCost = tenDaysCost+((20-10)*80);
+    var twentyDaysCost = tenDaysCost+((20 - 10) * 80);
 
     if(day > 0 && day <= 10){
-        first = day*100;
+        first = day * 100;
         return first;
     }
     else if(day > 10 && day <= 20){

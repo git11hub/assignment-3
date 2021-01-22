@@ -6,7 +6,7 @@ function kilometerToMeter(n){
     var meter = n * 1000;
     return meter;
 }
-var meter = kilometerToMeter(5);
+var meter = kilometerToMeter(-5);
 console.log(meter)
 
 
@@ -26,7 +26,7 @@ function budgetCalculator(amountOfWatch, amountOfPhone, amountOfLaptop){
     return totalPrice;
 }
 
-var totalPrice = budgetCalculator(0, 3, 0);
+var totalPrice = budgetCalculator(0, -3, 0);
 console.log(totalPrice);
 
 //   Hotel Cost
@@ -36,7 +36,7 @@ function hotelCost(day){
     var tenDaysCost = 10 * 100;
     var twentyDaysCost = tenDaysCost+((20 - 10) * 80);
 
-    if(day > 0 && day <= 10){
+    if(day >= 0 && day <= 10){
         first = day * 100;
         return first;
     }
@@ -53,7 +53,7 @@ function hotelCost(day){
     }
 }
 
-var result = hotelCost(71);
+var result = hotelCost(-5);
 console.log(result);
 
 //   Mega friend testing 
@@ -71,6 +71,6 @@ function megaFriend(friends) {
     }
     return bigName;
 }
-var result = megaFriend(["titu", "habibul", "musaiqbal", "habiburrrrrrrrrrrrrrr", "kobir"]);
+var result = megaFriend(["Titu", "Habibul", "Musa Iqbal", "Habibur Rahman", "Kobir"]);
 console.log(result);
 

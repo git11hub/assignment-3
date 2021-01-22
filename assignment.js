@@ -1,6 +1,6 @@
 // https://github.com/git11hub/assignment-3
 
-// kilometer to meter function 
+// Kilometer to meter function 
 
 function kilometerToMeter(n){
     var meter = n * 1000;
@@ -28,13 +28,12 @@ function budgetCalculator(amountOfWatch, amountOfPhone, amountOfLaptop){
     }
     else{
         return "Invalid number";
-    }
-
-    
+    }    
 }
 
 var totalPrice = budgetCalculator(0, 0, -5);
 console.log(totalPrice);
+
 
 //   Hotel Cost
 
@@ -62,6 +61,7 @@ function hotelCost(day){
 
 var result = hotelCost(-5);
 console.log(result);
+
 
 //   Mega friend testing 
 

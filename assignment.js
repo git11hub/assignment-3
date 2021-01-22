@@ -4,8 +4,14 @@
 
 function kilometerToMeter(n) {
     var meter = n * 1000;
-    return meter;
+    if(n >= 0){
+        return meter;
+    }
+    else{
+        return "Invalid number";
+    }    
 }
+
 var meter = kilometerToMeter(1.5);
 console.log(meter)
 
@@ -31,7 +37,7 @@ function budgetCalculator(amountOfWatch, amountOfPhone, amountOfLaptop) {
     }
 }
 
-var totalPrice = budgetCalculator(3, 2, 1);
+var totalPrice = budgetCalculator(1, 2, 1);
 console.log(totalPrice);
 
 

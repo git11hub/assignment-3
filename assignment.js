@@ -31,7 +31,7 @@ function budgetCalculator(amountOfWatch, amountOfPhone, amountOfLaptop) {
     }
 }
 
-var totalPrice = budgetCalculator(0, 0, -5);
+var totalPrice = budgetCalculator(3, 2, 1);
 console.log(totalPrice);
 
 
@@ -59,7 +59,7 @@ function hotelCost(day) {
     }
 }
 
-var result = hotelCost(-5);
+var result = hotelCost(71);
 console.log(result);
 
 

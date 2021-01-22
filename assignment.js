@@ -6,7 +6,7 @@ function kilometerToMeter(n) {
     var meter = n * 1000;
     return meter;
 }
-var meter = kilometerToMeter(-5);
+var meter = kilometerToMeter(1.5);
 console.log(meter)
 
 

@@ -4,12 +4,12 @@
 
 function kilometerToMeter(n) {
     var meter = n * 1000;
-    if(n >= 0){
+    if (n >= 0) {
         return meter;
     }
-    else{
+    else {
         return "Invalid number";
-    }    
+    }
 }
 
 var meter = kilometerToMeter(1.5);

@@ -63,9 +63,9 @@ function megaFriend(friends) {
     var bigName;
 
     for (var i = 0; i < friends.length; i++) {
-        var something = friends[i].length;
-        if (something > initial) {
-            var initial = something;
+        var countLetter = friends[i].length;
+        if (countLetter > initial) {
+            var initial = countLetter;
             bigName = friends[i];
         }
     }

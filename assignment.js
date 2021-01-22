@@ -37,16 +37,16 @@ function hotelCost(day){
     var twentyDaysCost = tenDaysCost+((20 - 10) * 80);
 
     if(day >= 0 && day <= 10){
-        first = day * 100;
-        return first;
+        upToTen = day * 100;
+        return upToTen;
     }
     else if(day > 10 && day <= 20){
-        second = tenDaysCost + ((day - 10) * 80);
-        return second;
+        upToTwenty = tenDaysCost + ((day - 10) * 80);
+        return upToTwenty;
     }
     else if(day > 20){
-        third = twentyDaysCost + ((day - 20) * 50);
-        return third;
+        aboveTwenty = twentyDaysCost + ((day - 20) * 50);
+        return aboveTwenty;
     }
     else{
         return "Invalid number";

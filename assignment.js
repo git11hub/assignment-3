@@ -2,7 +2,7 @@
 
 // Kilometer to meter function 
 
-function kilometerToMeter(n){
+function kilometerToMeter(n) {
     var meter = n * 1000;
     return meter;
 }
@@ -16,19 +16,19 @@ console.log(meter)
 // phonePrice = $100
 // laptopPrice = $500
 
-function budgetCalculator(amountOfWatch, amountOfPhone, amountOfLaptop){
+function budgetCalculator(amountOfWatch, amountOfPhone, amountOfLaptop) {
 
     var watch = amountOfWatch * 50;
     var phone = amountOfPhone * 100;
     var laptop = amountOfLaptop * 500;
     var totalPrice = watch + phone + laptop;
 
-    if(totalPrice >= 0){
+    if (totalPrice >= 0) {
         return totalPrice;
     }
-    else{
+    else {
         return "Invalid number";
-    }    
+    }
 }
 
 var totalPrice = budgetCalculator(0, 0, -5);
@@ -37,24 +37,24 @@ console.log(totalPrice);
 
 //   Hotel Cost
 
-function hotelCost(day){
+function hotelCost(day) {
 
     var tenDaysCost = 10 * 100;
-    var twentyDaysCost = tenDaysCost+((20 - 10) * 80);
+    var twentyDaysCost = tenDaysCost + ((20 - 10) * 80);
 
-    if(day >= 0 && day <= 10){
+    if (day >= 0 && day <= 10) {
         upToTen = day * 100;
         return upToTen;
     }
-    else if(day > 10 && day <= 20){
+    else if (day > 10 && day <= 20) {
         upToTwenty = tenDaysCost + ((day - 10) * 80);
         return upToTwenty;
     }
-    else if(day > 20){
+    else if (day > 20) {
         aboveTwenty = twentyDaysCost + ((day - 20) * 50);
         return aboveTwenty;
     }
-    else{
+    else {
         return "Invalid number";
     }
 }
@@ -78,6 +78,7 @@ function megaFriend(friends) {
     }
     return bigName;
 }
+
 var result = megaFriend(["Titu", "Habibul", "Musa Iqbal", "Habibur Rahman", "Kobir"]);
 console.log(result);
 

@@ -13,7 +13,6 @@ function kilometerToMeter(n) {
 }
 
 var meter = kilometerToMeter(1.5);
-console.log(meter)
 
 
 // Budget Calculator
@@ -38,7 +37,6 @@ function budgetCalculator(amountOfWatch, amountOfPhone, amountOfLaptop) {
 }
 
 var totalPrice = budgetCalculator(1, 2, 1);
-console.log(totalPrice);
 
 
 //   Hotel Cost
@@ -66,7 +64,6 @@ function hotelCost(day) {
 }
 
 var result = hotelCost(71);
-console.log(result);
 
 
 //   Mega friend testing 
@@ -86,5 +83,4 @@ function megaFriend(friends) {
 }
 
 var result = megaFriend(["Titu", "Habibul", "Musa Iqbal", "Habibur Rahman", "Kobir"]);
-console.log(result);
 
